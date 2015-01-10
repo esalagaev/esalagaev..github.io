@@ -1,0 +1,59 @@
+[
+	
+		{
+		  "title"      : "Тренинг Скотта Мейерса &quot;An Overview of the New C++ 11/14&quot;",
+		  "category"   : "",
+		  "url"        : "//ulgen4a.net/review-of-cpp-11-14-from-meyers/",
+		  "date"       : "2014-06-18 00:00:00 +0400",
+		  "shortdate"  : "June 18, 2014"
+		} ,
+	
+		{
+		  "title"      : "Big Data (MEAP) N. Marz и J. Warren",
+		  "category"   : "",
+		  "url"        : "//ulgen4a.net/big-data-book-review/",
+		  "date"       : "2014-06-10 00:00:00 +0400",
+		  "shortdate"  : "June 10, 2014"
+		} ,
+	
+		{
+		  "title"      : "Настройка связки Gnus - OfflineImap.",
+		  "category"   : "",
+		  "url"        : "//ulgen4a.net/gnus-via-offlineimap/",
+		  "date"       : "2014-04-08 00:00:00 +0400",
+		  "shortdate"  : "April 08, 2014"
+		} ,
+	
+		{
+		  "title"      : "Создание нумерации по порядку в Emacs.",
+		  "category"   : "",
+		  "url"        : "//ulgen4a.net/emacs-counter/",
+		  "date"       : "2014-04-05 00:00:00 +0400",
+		  "shortdate"  : "April 05, 2014"
+		} ,
+	
+		{
+		  "title"      : "Как заставить GNU Global индексировать .h как C++",
+		  "category"   : "",
+		  "url"        : "//ulgen4a.net/gnu-global-force-cpp/",
+		  "date"       : "2014-04-02 00:00:00 +0400",
+		  "shortdate"  : "April 02, 2014"
+		} ,
+	
+		{
+		  "title"      : "Использование GNU GLOBAL в Emacs",
+		  "category"   : "",
+		  "url"        : "//ulgen4a.net/using-globals/",
+		  "date"       : "2014-03-26 00:00:00 +0400",
+		  "shortdate"  : "March 26, 2014"
+		} ,
+	
+		{
+		  "title"      : "Написание простого модуля ядра",
+		  "category"   : "",
+		  "url"        : "//ulgen4a.net/simple-linux-kernel-module/",
+		  "date"       : "2014-03-23 00:00:00 +0400",
+		  "shortdate"  : "March 23, 2014"
+		} 
+	
+]

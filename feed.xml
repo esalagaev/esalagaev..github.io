@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+
+
+
+  
+  
+
+<title type="text">Ulgen4a blog</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://ulgen4a.net/feed.xml" />
+<link rel="alternate" type="text/html" href="http://ulgen4a.net/" />
+<updated>2015-01-10T14:00:03+03:00</updated>
+<id>http://ulgen4a.net/</id>
+<author>
+  <name>Evgeny Salagaev</name>
+  <uri>http://ulgen4a.net/</uri>
+  <email>ulgen@ulgen4a.net</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Тренинг Скотта Мейерса "An Overview of the New C++ 11/14"]]></title>
+  <link rel="alternate" type="text/html" href="http://ulgen4a.net/review-of-cpp-11-14-from-meyers/"/>
+  <id>http://ulgen4a.net/review-of-cpp-11-14-from-meyers</id>
+  <published>2014-06-18T00:00:00+04:00</published>
+  <updated>2014-06-18T00:00:00+04:00</updated>
+  <author>
+    <name>Evgeny Salagaev</name>
+    <uri>http://ulgen4a.net</uri>
+    <email>ulgen@ulgen4a.net</email>
+  </author>
+  <category scheme="http://ulgen4a.net/tags/#cpp" term="cpp" /><category scheme="http://ulgen4a.net/tags/#Meyers" term="Meyers" />
+  <content type="html">
+  
+    &lt;p&gt;Принял участие в тренинге Скотта Мейерса &lt;a href=&quot;http://tech.yandex.ru/events/yagosti/msk-jun-2014/&quot;&gt;“An Overview of the New C++ 11/14”&lt;/a&gt;. Длился он три дня. Были рассмотрены новые фичи языка, стандартной библиотеки и различные “темные места” языка (которых стало еще больше).&lt;/p&gt;
+
+&lt;p&gt;Мейерс показал себя, как интересный докладчик, с ним можно было свободно пообщаться в перерывах и в конце дня. Рассказывая старался объяснить почему так, а не иначе, впрочем не  без юмора. Ряд вещей оказалось не объяснимым т.е. это решение комитета по стандартизации. Скотт оказался открыт сомнению и был готов, если не знает ответ или сомневается в чем-то изучить вопрос дополнительно и потом сообщить результат.&lt;/p&gt;
+
+&lt;p&gt;Некоторыми нововведениями Скотт был не доволен, например негативно отозвался о контейнером forward_list, который во многом нарушает соглашения об интерфейсах контейнеров стандартной библиотеки. Старался доходчиво объяснить понятия r-value и универсальной ссылки, тонкости их использования.&lt;/p&gt;
+
+&lt;p&gt;По возможности рекомендую посетить его выступления или посмотреть видео - это должно быть небезынтересно не только для разработчиков использующих C++, но и другим связанным с информационными технологиями людям, так как у него довольно много юмора и в достаточно неформальной форме рассказано, что по какой причине сделано в C++. Ссылки на видео &lt;a href=&quot;http://channel9.msdn.com/Events/GoingNative/2013/An-Effective-Cpp11-14-Sampler&quot;&gt;An Effective C++11/14 Sampler&lt;/a&gt;, &lt;a href=&quot;http://www.ustream.tv/recorded/47947981&quot;&gt;The Last Thing D Needs&lt;/a&gt;, довольно много его выступлений можно найти воспользовавшись поисковиком.&lt;/p&gt;
+
+&lt;p&gt;Информация о тренинге на сайте Скотта - &lt;a href=&quot;http://www.aristeia.com/C++11.html&quot;&gt;Scott Meyers Training Courses&lt;/a&gt;.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/review-of-cpp-11-14-from-meyers/&quot;&gt;Тренинг Скотта Мейерса "An Overview of the New C++ 11/14"&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on June 18, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Big Data (MEAP) N. Marz и J. Warren]]></title>
+  <link rel="alternate" type="text/html" href="http://ulgen4a.net/big-data-book-review/"/>
+  <id>http://ulgen4a.net/big-data-book-review</id>
+  <published>2014-06-10T00:00:00+04:00</published>
+  <updated>2014-06-10T00:00:00+04:00</updated>
+  <author>
+    <name>Evgeny Salagaev</name>
+    <uri>http://ulgen4a.net</uri>
+    <email>ulgen@ulgen4a.net</email>
+  </author>
+  <category scheme="http://ulgen4a.net/tags/#big%20data" term="big data" /><category scheme="http://ulgen4a.net/tags/#hadoop" term="hadoop" /><category scheme="http://ulgen4a.net/tags/#high%20load" term="high load" /><category scheme="http://ulgen4a.net/tags/#cassandra" term="cassandra" />
+  <content type="html">
+  
+    &lt;p&gt;Прочитал MEAP &lt;a href=&quot;http://www.manning.com/marz/&quot;&gt;Big Data&lt;/a&gt; N. Marz and J. Warren издательства Manning. В книги описываются принципы и даны примеры построения систем обработки больших данный.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Big Data&quot; src=&quot;../images/marz_cover150.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;За основу взята, описываемая в книге, Lambda Architecture. Разработка производится с использованием реально существующих платформ как Hadoop, Cassandra, ElephantDB, Storm, Kafka.&lt;/p&gt;
+
+&lt;p&gt;Приведено ряд интересных идей об организации систем перед, которыми стоит задача обрабатывать большой объем данных, при этом обеспечить должную скорость ответа пользователям. Авторы описывают реализацию ряда решений, которые можно использовать, как отправную точку при решении задач обработки данных.&lt;/p&gt;
+
+&lt;p&gt;Интересно, что рассматривается не только тема обработка данных, но и построения масштабируемой системы доступа к этим данным, с учетом того что количество пользователей будет расти.&lt;/p&gt;
+
+&lt;p&gt;Могу рекомендовать эту книгу для ознакомления с темой обработки больших данных. Так как это только черновик, подробнее напишу после выхода книги.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/big-data-book-review/&quot;&gt;Big Data (MEAP) N. Marz и J. Warren&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on June 10, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Настройка связки Gnus - OfflineImap.]]></title>
+  <link rel="alternate" type="text/html" href="http://ulgen4a.net/gnus-via-offlineimap/"/>
+  <id>http://ulgen4a.net/gnus-via-offlineimap</id>
+  <published>2014-04-08T00:00:00+04:00</published>
+  <updated>2014-04-08T00:00:00+04:00</updated>
+  <author>
+    <name>Evgeny Salagaev</name>
+    <uri>http://ulgen4a.net</uri>
+    <email>ulgen@ulgen4a.net</email>
+  </author>
+  <category scheme="http://ulgen4a.net/tags/#emacs" term="emacs" /><category scheme="http://ulgen4a.net/tags/#gnus" term="gnus" /><category scheme="http://ulgen4a.net/tags/#offlineimap" term="offlineimap" />
+  <content type="html">
+  
+    &lt;p&gt;Решил вернуться на &lt;a href=&quot;http://gnus.org&quot;&gt;Gnus&lt;/a&gt;. Имеющийся почтовый клиент несколько
+утомил своей назойливостью и непривычными горячими клавишами.&lt;/p&gt;
+
+&lt;p&gt;При этом возникли проблемы:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gnus не корректно работал с IMAP сервером на работе&lt;/li&gt;
+  &lt;li&gt;Emacs повисал во время синхронизации&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Начал искать возможные пути решения проблем и нашел такую утилиту, как
+&lt;a href=&quot;http://offlineimap.org&quot;&gt;OfflineImap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;OfflineImap - это программа позволяющая синхронизировать почту на IMAP-сервере
+как с локальным каталогом, так и с другим сервером. Причем синхронизация двух
+сторонняя т.е. изменения синхронизируются как с сервера, так и локальные
+изменения на сервер. Когда синхронизация настроена с локальным каталогом, то
+используется формат &lt;a href=&quot;http://en.wikipedia.org/wiki/Maildir&quot;&gt;Maildir&lt;/a&gt;. Этот формат
+поддерживается Gnus.&lt;/p&gt;
+
+&lt;p&gt;OfflineImap довольно легко устанавливается, так как представляет собой скрип на
+Python. Ниже приведу пример конфигурационного файла:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;nginx&quot;&gt;&lt;span class=&quot;k&quot;&gt;[general]&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;accounts&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;MailBox&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;maxsyncaccounts&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;[Account&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;MailBox]&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;localrepository&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;MailBoxLocal&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;remoterepository&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;MailBoxRemote&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;autorefresh&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;[Repository&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;MailBoxLocal]&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Maildir&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;localfolders&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/Maildir/MailBox&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;[Repository&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;MailBoxRemote]&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;IMAP&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;remotehost&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;imap.your-imapserver.tld&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;remoteuser&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ulgen4a&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#remotepass = your_password&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#ssl = yes&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;maxconnections&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;realdelete&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;no&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;folderfilter&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;foldername:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;re.search(&amp;quot;^List&amp;quot;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;foldername)&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;keepalive&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Подключение Maildir в Gnus можно сделать следующим образом:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;gnus-select-method&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;nnmaildir&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;MailBox&amp;quot;&lt;/span&gt;
+                  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;~/Maildir/MailBox&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;directory-files&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;nnheader-directory-files-safe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;get-new-mail&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Для сохранения отправляемых писем на IMAP сервере можно установить архивную группу:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;gnus-message-archive-group&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;nnmaildir+MailBox:Sent&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Для старта процесса  из gnus можно добавить следующее клавиатурное сочетание:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;define-key&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;gnus-group-mode-map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;vo&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;interactive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;shell-command&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;offlineimap&amp;amp;&amp;quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;*offlineimap*&amp;quot;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Если группы не отображаться надо выполнить gnus-group-enter-server-mode и
+выбрать нужные группы из списка.&lt;/p&gt;
+
+&lt;p&gt;В итоге с почтой можно работать в Gnus, Emacs не зависает и имеются все плюсы IMAP.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/gnus-via-offlineimap/&quot;&gt;Настройка связки Gnus - OfflineImap.&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on April 08, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Создание нумерации по порядку в Emacs.]]></title>
+  <link rel="alternate" type="text/html" href="http://ulgen4a.net/emacs-counter/"/>
+  <id>http://ulgen4a.net/emacs-counter</id>
+  <published>2014-04-05T00:00:00+04:00</published>
+  <updated>2014-04-05T00:00:00+04:00</updated>
+  <author>
+    <name>Evgeny Salagaev</name>
+    <uri>http://ulgen4a.net</uri>
+    <email>ulgen@ulgen4a.net</email>
+  </author>
+  <category scheme="http://ulgen4a.net/tags/#emacs" term="emacs" />
+  <content type="html">
+  
+    &lt;p&gt;Возникла необходимость перенумеровать поля сообщения google protobuf. Причем
+довольно много полей, примерно 40.&lt;/p&gt;
+
+&lt;p&gt;Прикинул, что в Emacs должен быть способ решить эту задачу с минимальными
+усилиями и нашел способ.&lt;/p&gt;
+
+&lt;p&gt;Есть набор “Keyboard Macro Counter”, которые позволяют задать начальное значение
+счетчика и вставлять его, при этом он будет автоматически инкрементироваться.&lt;/p&gt;
+
+&lt;p&gt;C-x C-k C-c&lt;/p&gt;
+
+&lt;p&gt;Позволяет установить начальное значение (kmacro-set-counter)&lt;/p&gt;
+
+&lt;p&gt;C-x C-k TAB или C-x C-k C-i&lt;/p&gt;
+
+&lt;p&gt;Вставляет счетчик в буфер и инкрементирует его (kmacro-insert-counter)&lt;/p&gt;
+
+&lt;p&gt;Что бы не было скучно можно повторять предыдущую команду:&lt;/p&gt;
+
+&lt;p&gt;C-x z (repeat REPEAT-ARG)&lt;/p&gt;
+
+&lt;p&gt;В итоге использовав счетчик (kmacro-insert-counter) и клавиатурный макрос удалось довольно быстро решить
+задачу.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/emacs-counter/&quot;&gt;Создание нумерации по порядку в Emacs.&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on April 05, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Как заставить GNU Global индексировать .h как C++]]></title>
+  <link rel="alternate" type="text/html" href="http://ulgen4a.net/gnu-global-force-cpp/"/>
+  <id>http://ulgen4a.net/gnu-global-force-cpp</id>
+  <published>2014-04-02T00:00:00+04:00</published>
+  <updated>2014-04-02T00:00:00+04:00</updated>
+  <author>
+    <name>Evgeny Salagaev</name>
+    <uri>http://ulgen4a.net</uri>
+    <email>ulgen@ulgen4a.net</email>
+  </author>
+  <category scheme="http://ulgen4a.net/tags/#gtags" term="gtags" /><category scheme="http://ulgen4a.net/tags/#global" term="global" />
+  <content type="html">
+  
+    &lt;p&gt;Как я уже писал ранее, система используемая мною для индексирования исходных
+текстов GNU Global. Под Emacs поддержка реализована модулем gtags.&lt;/p&gt;
+
+&lt;p&gt;Случилось так, что в проекте, над которым я сейчас работаю, для C++ используются
+.h файлы. Global их индексирует как C-файлы. Найденное мною решение, так как в
+моем случае индексировать надо только C++ - это установка переменной окружения
+GTAGSFORCECPP следующим образом:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GTAGSFORCECPP&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/gnu-global-force-cpp/&quot;&gt;Как заставить GNU Global индексировать .h как C++&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on April 02, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Использование GNU GLOBAL в Emacs]]></title>
+  <link rel="alternate" type="text/html" href="http://ulgen4a.net/using-globals/"/>
+  <id>http://ulgen4a.net/using-globals</id>
+  <published>2014-03-26T00:00:00+04:00</published>
+  <updated>2014-03-26T00:00:00+04:00</updated>
+  <author>
+    <name>Evgeny Salagaev</name>
+    <uri>http://ulgen4a.net</uri>
+    <email>ulgen@ulgen4a.net</email>
+  </author>
+  <category scheme="http://ulgen4a.net/tags/#emacs" term="emacs" /><category scheme="http://ulgen4a.net/tags/#gtags" term="gtags" /><category scheme="http://ulgen4a.net/tags/#global" term="global" />
+  <content type="html">
+  
+    &lt;p&gt;GNU GLOBAL система индексирования исходных текстов, работающая в различных
+окружениях, в таких как Emacs, VI, BASH и т.д. Будет рассмотрено использование
+GNU GLOBAL в Emacs. Подробнее о GNU GLOBAL можно почитать на сайте
+&lt;a href=&quot;http://www.gnu.org/software/global/global.html&quot;&gt;проекта&lt;/a&gt;. Считаем, что GNU
+GLOBAL установлен например с помощью менеджера пакетов или собран из исходных
+текстов.&lt;/p&gt;
+
+&lt;p&gt;После установки надо про-индексировать исходные тексты, выполнив в корне проекта
+команду gtags.&lt;/p&gt;
+
+&lt;p&gt;$ gtags&lt;/p&gt;
+
+&lt;p&gt;В директории должны появиться три файла GPATH, GRTAGS, GTAGS.&lt;/p&gt;
+
+&lt;p&gt;Для поддержки со стороны Emacs установим пакет gtags. Проще это сделать с
+помощью:&lt;/p&gt;
+
+&lt;p&gt;M-x package-install
+Install package: gtags&lt;/p&gt;
+
+&lt;p&gt;Автоматическое включение gtags-mode для С и C++ можно сделать, добавив в файл
+инициализации автоматическое его включение например через c-mode-common-hook:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;my-c-mode-common-hook&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;c-set-offset&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;member-init-intro&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tab-width&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;indent-tabs-mode&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;c-set-offset&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;substatement-open&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;c-set-style&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;bsd&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;c-basic-offset&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;auto-fill-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gtags-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;hs-minor-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;local-set-key&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;[return]&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;newline-and-indent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;c-mode-common-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;my-c-mode-common-hook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Но также можно включать режим руками.&lt;/p&gt;
+
+&lt;p&gt;M-x gtags-mode&lt;/p&gt;
+
+&lt;p&gt;Один из вариантов установки горячих клавиш приведен ниже:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;gtags-mode-hook&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;local-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;M-.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;gtags-find-tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;; find a tag&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;local-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;M-,&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;&amp;#39;gtags-find-rtag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;; reverse a tag&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;В последних версиях gtags появилась поддержка работы через tramp для этого
+необходимо добавить в PATH место расположения скрипта global-client (которое
+может быть /usr/share/gtags/script/global-client), скрипт поставляется вместе с
+GNU GLOBAL. Собственно без этого gtags с tramp работать в последних версиях не
+будет.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/using-globals/&quot;&gt;Использование GNU GLOBAL в Emacs&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on March 26, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Написание простого модуля ядра]]></title>
+  <link rel="alternate" type="text/html" href="http://ulgen4a.net/simple-linux-kernel-module/"/>
+  <id>http://ulgen4a.net/simple-linux-kernel-module</id>
+  <published>2014-03-23T00:00:00+04:00</published>
+  <updated>2014-03-23T00:00:00+04:00</updated>
+  <author>
+    <name>Evgeny Salagaev</name>
+    <uri>http://ulgen4a.net</uri>
+    <email>ulgen@ulgen4a.net</email>
+  </author>
+  <category scheme="http://ulgen4a.net/tags/#linux" term="linux" /><category scheme="http://ulgen4a.net/tags/#kernel" term="kernel" />
+  <content type="html">
+  
+    &lt;p&gt;Напишем модуль, который будет выводить сакраментальное “Hello, World!”. Самый
+простой модуль ядра, который наверно можно представить. Ниже приведен код
+модуля.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;linux/init.h&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;linux/module.h&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;linux/kernel.h&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/*&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;* hello_init - функция инициализации, вызывается при загрузке модуля&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;*/&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;KERN_ALERT&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Hello, World!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/*&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;* hello_exit - функция завершения, вызывается во время выгрузки модуля.&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;*/&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello_exit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;module_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;module_exit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello_exit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;MODULE_LICENSE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GNU&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;MODULE_AUTHOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ulgen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Функция hello_init регистрируется с помощью макроса module_init(), как точка
+входа модуля. Она вызывается ядром при загрузке модуля. Функции инициализации
+должны иметь прототип:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sample_module_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Функцию инициализации желательно объявлять, как static (это справедливо и для
+функции де-инициализации), кроме тех случаем, когда она нужна за пределами
+модуля.&lt;/p&gt;
+
+&lt;p&gt;Она должна возвращать нуль и только в случае ошибки отличное от нуля значение.&lt;/p&gt;
+
+&lt;p&gt;В нашем случае печатается сообщении и возвращается нуль. В настоящих модулях,
+функция инициализации регистрирует ресурсы, выделяет память и т.д. В случаях
+статической компиляции модуля с ядром эта функция останется и будет вызываться
+при загрузке ядра.&lt;/p&gt;
+
+&lt;p&gt;hello_exit - регистрируется макросом module_exit в качестве точки выхода из
+модуля. Ядро вызывает эту функцию, когда модуль выгружается. Функция выхода
+модуля используется для освобождения ресурсов и должна после своего выполнения
+гарантировать консистентность системы.&lt;/p&gt;
+
+&lt;p&gt;Прототип функции выхода:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sample_module_exit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;В случае включения модуля в ядро функция выхода не будет включена в образ и
+никогда не будет вызвана, так как код модуля не может быть выгружен.&lt;/p&gt;
+
+&lt;p&gt;Макрос MODULE_LICENSE() позволяет указать лицензию под, которой выпущен модуль.&lt;/p&gt;
+
+&lt;p&gt;MODULE_AUTHOR() - служит для информационных целей, позволяя указать автора модуля.&lt;/p&gt;
+
+&lt;p&gt;Модуль можно собирать двумя способами в каталоге исходных кодов ядра или вне
+каталога. Будем рассматривать случай сборки вне каталога исходных текстов ядра.&lt;/p&gt;
+
+&lt;p&gt;Для компиляции вне дерева исходных кодов необходимо создать файл Makefile в
+каталоге с исходными текстами модуля примерно следующего вида:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;make&quot;&gt;&lt;span class=&quot;nv&quot;&gt;obj-m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; hello.o&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Такой Makefile позволить скомпилировать hello.c в hello.ko&lt;/p&gt;
+
+&lt;p&gt;Если модуль состоит из нескольких фалов исходного текста, то Makefile может
+выглядеть следующим образом:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;make&quot;&gt;&lt;span class=&quot;nv&quot;&gt;obj-m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; hello.o
+&lt;span class=&quot;nv&quot;&gt;hello-objs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; hello-main.o hello-second.o&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;make вызывается со следующими параметрами:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;make -C ~/src/linux-source &lt;span class=&quot;nv&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt; modules&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;В данном случае ~/src/linux-source путь к сконфигурированному дереву исходных
+текстов ядра.&lt;/p&gt;
+
+&lt;p&gt;На этом пока все.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/simple-linux-kernel-module/&quot;&gt;Написание простого модуля ядра&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on March 23, 2014.&lt;/p&gt;</content>
+</entry>
+
+</feed>

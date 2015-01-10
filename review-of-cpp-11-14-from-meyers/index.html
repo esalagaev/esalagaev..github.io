@@ -1,0 +1,258 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Тренинг Скотта Мейерса "An Overview of the New C++ 11/14" &#8211; Ulgen4a blog</title>
+<meta name="description" content="С 9 по 11 июня 2014 в Yandex прошел тренинг Скотта Мейерса, ниже впечатления о нем.">
+<meta name="keywords" content="cpp, Meyers">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="//ulgen4a.net/images/">
+<meta name="twitter:title" content="Тренинг Скотта Мейерса "An Overview of the New C++ 11/14"">
+<meta name="twitter:description" content="С 9 по 11 июня 2014 в Yandex прошел тренинг Скотта Мейерса, ниже впечатления о нем.">
+<meta name="twitter:site" content="@ulgen4a">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Тренинг Скотта Мейерса "An Overview of the New C++ 11/14"">
+<meta property="og:description" content="С 9 по 11 июня 2014 в Yandex прошел тренинг Скотта Мейерса, ниже впечатления о нем.">
+<meta property="og:url" content="//ulgen4a.net/review-of-cpp-11-14-from-meyers/">
+<meta property="og:site_name" content="Ulgen4a blog">
+
+
+
+
+
+<link rel="canonical" href="//ulgen4a.net/review-of-cpp-11-14-from-meyers/">
+<link href="//ulgen4a.net/feed.xml" type="application/atom+xml" rel="alternate" title="Ulgen4a blog Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="//ulgen4a.net/assets/css/main.min.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="//ulgen4a.net/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="//ulgen4a.net/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="//ulgen4a.net/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="//ulgen4a.net/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//ulgen4a.net/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//ulgen4a.net/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//ulgen4a.net/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+	        
+			<li>
+				
+					<a href="//ulgen4a.net/about/">About</a>
+				 
+			</li>
+	        
+			<li>
+				
+					<a href="//ulgen4a.net/articles/">Articles</a>
+				 
+			</li>
+	        
+	        <li><a href="//ulgen4a.net/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+	        <li class="dosearch"><i class="icon-search"></i> Search</li>
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<div class="search-wrapper">
+	<div class="search-form">
+		<input type="text" class="search-field" placeholder="Search...">
+		<i class="icon-remove-sign icon-2x"></i>
+		<ul class="search-results post-list"></ul><!-- /.search-results -->
+	</div><!-- /.search-form -->
+</div><!-- ./search-wrapper -->
+
+<header class="masthead">
+	<div class="wrap">
+        
+        <h1 class="site-title animated fadeIn"><a href="//ulgen4a.net/">Ulgen4a blog</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">My personal blog</h2>
+	</div>
+</header><!-- /.masthead -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"><a href="//ulgen4a.net/tags/#cpp" title="Pages tagged cpp">cpp</a>&nbsp;&bull;&nbsp;<a href="//ulgen4a.net/tags/#Meyers" title="Pages tagged Meyers">Meyers</a></span>
+        
+          <h1 class="entry-title">Тренинг Скотта Мейерса "An Overview of the New C++ 11/14"</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        <img src="//ulgen4a.net/images/bio-photo.jpg" alt="Evgeny Salagaev photo" class="author-photo">
+        <span class="author vcard">By <span class="fn"><a href="//ulgen4a.net/about/" title="About Evgeny Salagaev">Evgeny Salagaev</a></span></span>
+        
+        <span class="entry-date date published"><time datetime="2014-06-18T00:00:00+04:00"><i class="icon-calendar-empty"></i> June 18, 2014</time></span>
+        
+        <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
+        <span><a href="//ulgen4a.net/review-of-cpp-11-14-from-meyers/" rel="bookmark" title="Тренинг Скотта Мейерса "An Overview of the New C++ 11/14""><i class="icon-link"></i> Permalink</a></span>
+        
+        <span class="social-share-facebook">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=//ulgen4a.net/review-of-cpp-11-14-from-meyers/" title="Share on Facebook" itemprop="Facebook"><i class="icon-facebook-sign"></i> Like</a></span>
+        <span class="social-share-twitter">
+            <a href="https://twitter.com/intent/tweet?hashtags=&text=Тренинг Скотта Мейерса "An Overview of the New C++ 11/14"&url=//ulgen4a.net/review-of-cpp-11-14-from-meyers/&via=ulgen4a" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
+        <span class="social-share-googleplus">
+            <a href="https://plus.google.com/share?url=//ulgen4a.net/review-of-cpp-11-14-from-meyers/" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
+            <!-- /.social-share -->
+      </footer>
+      <div class="entry-content">
+        <p>Принял участие в тренинге Скотта Мейерса <a href="http://tech.yandex.ru/events/yagosti/msk-jun-2014/">“An Overview of the New C++ 11/14”</a>. Длился он три дня. Были рассмотрены новые фичи языка, стандартной библиотеки и различные “темные места” языка (которых стало еще больше).</p>
+
+<p>Мейерс показал себя, как интересный докладчик, с ним можно было свободно пообщаться в перерывах и в конце дня. Рассказывая старался объяснить почему так, а не иначе, впрочем не  без юмора. Ряд вещей оказалось не объяснимым т.е. это решение комитета по стандартизации. Скотт оказался открыт сомнению и был готов, если не знает ответ или сомневается в чем-то изучить вопрос дополнительно и потом сообщить результат.</p>
+
+<p>Некоторыми нововведениями Скотт был не доволен, например негативно отозвался о контейнером forward_list, который во многом нарушает соглашения об интерфейсах контейнеров стандартной библиотеки. Старался доходчиво объяснить понятия r-value и универсальной ссылки, тонкости их использования.</p>
+
+<p>По возможности рекомендую посетить его выступления или посмотреть видео - это должно быть небезынтересно не только для разработчиков использующих C++, но и другим связанным с информационными технологиями людям, так как у него довольно много юмора и в достаточно неформальной форме рассказано, что по какой причине сделано в C++. Ссылки на видео <a href="http://channel9.msdn.com/Events/GoingNative/2013/An-Effective-Cpp11-14-Sampler">An Effective C++11/14 Sampler</a>, <a href="http://www.ustream.tv/recorded/47947981">The Last Thing D Needs</a>, довольно много его выступлений можно найти воспользовавшись поисковиком.</p>
+
+<p>Информация о тренинге на сайте Скотта - <a href="http://www.aristeia.com/C++11.html">Scott Meyers Training Courses</a>.</p>
+
+        <div id="disqus_thread"></div><!-- /#disqus_thread -->
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="//ulgen4a.net/big-data-book-review/" class="btn" title="Big Data (MEAP) N. Marz и J. Warren">Previous article</a>
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2015 Evgeny Salagaev. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/so-simple/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="http://twitter.com/ulgen4a" title="Evgeny Salagaev on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
+	<a href="http://facebook.com/evgeny.salagaev" title="Evgeny Salagaev on Facebook" target="_blank"><i class="icon-facebook icon-2x"></i></a>
+	
+	<a href="http://linkedin.com/in/esalagaev" title="Evgeny Salagaev on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>
+	
+	
+	
+	
+	
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="//ulgen4a.net/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="//ulgen4a.net/assets/js/scripts.min.js"></script>
+
+<!-- Jekyll Simple Search option -->
+<script>
+  $(document).ready(function() {
+      $('.search-field').simpleJekyllSearch({
+          jsonFile : '//ulgen4a.net/search.json',
+          searchResults : '.search-results',
+          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          noResults: '<p>Nothing found.</p>'
+        });
+  });
+
+  (function( $, window, undefined ) {
+    
+     var bs = {
+          close: $(".icon-remove-sign"),
+          searchform: $(".search-form"),
+          canvas: $("body"),
+          dothis: $('.dosearch')
+      };
+    
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('search-overlay');
+    });
+    
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+  })( jQuery, window );
+</script>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-45392687-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'ulgen4a'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	        
+
+</body>
+</html>
