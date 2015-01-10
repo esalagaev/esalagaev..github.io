@@ -8,29 +8,29 @@
 
 <title type="text">Ulgen4a blog</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://ulgen4a.net/feed.xml" />
-<link rel="alternate" type="text/html" href="http://ulgen4a.net/" />
-<updated>2015-01-10T14:00:03+03:00</updated>
-<id>http://ulgen4a.net/</id>
+<link rel="self" type="application/atom+xml" href="http://blog.ulgen4a.net/feed.xml" />
+<link rel="alternate" type="text/html" href="http://blog.ulgen4a.net/" />
+<updated>2015-01-10T14:08:07+03:00</updated>
+<id>http://blog.ulgen4a.net/</id>
 <author>
   <name>Evgeny Salagaev</name>
-  <uri>http://ulgen4a.net/</uri>
+  <uri>http://blog.ulgen4a.net/</uri>
   <email>ulgen@ulgen4a.net</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Тренинг Скотта Мейерса "An Overview of the New C++ 11/14"]]></title>
-  <link rel="alternate" type="text/html" href="http://ulgen4a.net/review-of-cpp-11-14-from-meyers/"/>
-  <id>http://ulgen4a.net/review-of-cpp-11-14-from-meyers</id>
+  <link rel="alternate" type="text/html" href="http://blog.ulgen4a.net/review-of-cpp-11-14-from-meyers/"/>
+  <id>http://blog.ulgen4a.net/review-of-cpp-11-14-from-meyers</id>
   <published>2014-06-18T00:00:00+04:00</published>
   <updated>2014-06-18T00:00:00+04:00</updated>
   <author>
     <name>Evgeny Salagaev</name>
-    <uri>http://ulgen4a.net</uri>
+    <uri>http://blog.ulgen4a.net</uri>
     <email>ulgen@ulgen4a.net</email>
   </author>
-  <category scheme="http://ulgen4a.net/tags/#cpp" term="cpp" /><category scheme="http://ulgen4a.net/tags/#Meyers" term="Meyers" />
+  <category scheme="http://blog.ulgen4a.net/tags/#cpp" term="cpp" /><category scheme="http://blog.ulgen4a.net/tags/#Meyers" term="Meyers" />
   <content type="html">
   
     &lt;p&gt;Принял участие в тренинге Скотта Мейерса &lt;a href=&quot;http://tech.yandex.ru/events/yagosti/msk-jun-2014/&quot;&gt;“An Overview of the New C++ 11/14”&lt;/a&gt;. Длился он три дня. Были рассмотрены новые фичи языка, стандартной библиотеки и различные “темные места” языка (которых стало еще больше).&lt;/p&gt;
@@ -44,22 +44,22 @@
 &lt;p&gt;Информация о тренинге на сайте Скотта - &lt;a href=&quot;http://www.aristeia.com/C++11.html&quot;&gt;Scott Meyers Training Courses&lt;/a&gt;.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/review-of-cpp-11-14-from-meyers/&quot;&gt;Тренинг Скотта Мейерса "An Overview of the New C++ 11/14"&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on June 18, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://blog.ulgen4a.net/review-of-cpp-11-14-from-meyers/&quot;&gt;Тренинг Скотта Мейерса "An Overview of the New C++ 11/14"&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://blog.ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on June 18, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Big Data (MEAP) N. Marz и J. Warren]]></title>
-  <link rel="alternate" type="text/html" href="http://ulgen4a.net/big-data-book-review/"/>
-  <id>http://ulgen4a.net/big-data-book-review</id>
+  <link rel="alternate" type="text/html" href="http://blog.ulgen4a.net/big-data-book-review/"/>
+  <id>http://blog.ulgen4a.net/big-data-book-review</id>
   <published>2014-06-10T00:00:00+04:00</published>
   <updated>2014-06-10T00:00:00+04:00</updated>
   <author>
     <name>Evgeny Salagaev</name>
-    <uri>http://ulgen4a.net</uri>
+    <uri>http://blog.ulgen4a.net</uri>
     <email>ulgen@ulgen4a.net</email>
   </author>
-  <category scheme="http://ulgen4a.net/tags/#big%20data" term="big data" /><category scheme="http://ulgen4a.net/tags/#hadoop" term="hadoop" /><category scheme="http://ulgen4a.net/tags/#high%20load" term="high load" /><category scheme="http://ulgen4a.net/tags/#cassandra" term="cassandra" />
+  <category scheme="http://blog.ulgen4a.net/tags/#big%20data" term="big data" /><category scheme="http://blog.ulgen4a.net/tags/#hadoop" term="hadoop" /><category scheme="http://blog.ulgen4a.net/tags/#high%20load" term="high load" /><category scheme="http://blog.ulgen4a.net/tags/#cassandra" term="cassandra" />
   <content type="html">
   
     &lt;p&gt;Прочитал MEAP &lt;a href=&quot;http://www.manning.com/marz/&quot;&gt;Big Data&lt;/a&gt; N. Marz and J. Warren издательства Manning. В книги описываются принципы и даны примеры построения систем обработки больших данный.&lt;/p&gt;
@@ -75,22 +75,22 @@
 &lt;p&gt;Могу рекомендовать эту книгу для ознакомления с темой обработки больших данных. Так как это только черновик, подробнее напишу после выхода книги.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/big-data-book-review/&quot;&gt;Big Data (MEAP) N. Marz и J. Warren&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on June 10, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://blog.ulgen4a.net/big-data-book-review/&quot;&gt;Big Data (MEAP) N. Marz и J. Warren&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://blog.ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on June 10, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Настройка связки Gnus - OfflineImap.]]></title>
-  <link rel="alternate" type="text/html" href="http://ulgen4a.net/gnus-via-offlineimap/"/>
-  <id>http://ulgen4a.net/gnus-via-offlineimap</id>
+  <link rel="alternate" type="text/html" href="http://blog.ulgen4a.net/gnus-via-offlineimap/"/>
+  <id>http://blog.ulgen4a.net/gnus-via-offlineimap</id>
   <published>2014-04-08T00:00:00+04:00</published>
   <updated>2014-04-08T00:00:00+04:00</updated>
   <author>
     <name>Evgeny Salagaev</name>
-    <uri>http://ulgen4a.net</uri>
+    <uri>http://blog.ulgen4a.net</uri>
     <email>ulgen@ulgen4a.net</email>
   </author>
-  <category scheme="http://ulgen4a.net/tags/#emacs" term="emacs" /><category scheme="http://ulgen4a.net/tags/#gnus" term="gnus" /><category scheme="http://ulgen4a.net/tags/#offlineimap" term="offlineimap" />
+  <category scheme="http://blog.ulgen4a.net/tags/#emacs" term="emacs" /><category scheme="http://blog.ulgen4a.net/tags/#gnus" term="gnus" /><category scheme="http://blog.ulgen4a.net/tags/#offlineimap" term="offlineimap" />
   <content type="html">
   
     &lt;p&gt;Решил вернуться на &lt;a href=&quot;http://gnus.org&quot;&gt;Gnus&lt;/a&gt;. Имеющийся почтовый клиент несколько
@@ -166,22 +166,22 @@ Python. Ниже приведу пример конфигурационного 
 &lt;p&gt;В итоге с почтой можно работать в Gnus, Emacs не зависает и имеются все плюсы IMAP.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/gnus-via-offlineimap/&quot;&gt;Настройка связки Gnus - OfflineImap.&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on April 08, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://blog.ulgen4a.net/gnus-via-offlineimap/&quot;&gt;Настройка связки Gnus - OfflineImap.&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://blog.ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on April 08, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Создание нумерации по порядку в Emacs.]]></title>
-  <link rel="alternate" type="text/html" href="http://ulgen4a.net/emacs-counter/"/>
-  <id>http://ulgen4a.net/emacs-counter</id>
+  <link rel="alternate" type="text/html" href="http://blog.ulgen4a.net/emacs-counter/"/>
+  <id>http://blog.ulgen4a.net/emacs-counter</id>
   <published>2014-04-05T00:00:00+04:00</published>
   <updated>2014-04-05T00:00:00+04:00</updated>
   <author>
     <name>Evgeny Salagaev</name>
-    <uri>http://ulgen4a.net</uri>
+    <uri>http://blog.ulgen4a.net</uri>
     <email>ulgen@ulgen4a.net</email>
   </author>
-  <category scheme="http://ulgen4a.net/tags/#emacs" term="emacs" />
+  <category scheme="http://blog.ulgen4a.net/tags/#emacs" term="emacs" />
   <content type="html">
   
     &lt;p&gt;Возникла необходимость перенумеровать поля сообщения google protobuf. Причем
@@ -209,22 +209,22 @@ Python. Ниже приведу пример конфигурационного 
 задачу.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/emacs-counter/&quot;&gt;Создание нумерации по порядку в Emacs.&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on April 05, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://blog.ulgen4a.net/emacs-counter/&quot;&gt;Создание нумерации по порядку в Emacs.&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://blog.ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on April 05, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Как заставить GNU Global индексировать .h как C++]]></title>
-  <link rel="alternate" type="text/html" href="http://ulgen4a.net/gnu-global-force-cpp/"/>
-  <id>http://ulgen4a.net/gnu-global-force-cpp</id>
+  <link rel="alternate" type="text/html" href="http://blog.ulgen4a.net/gnu-global-force-cpp/"/>
+  <id>http://blog.ulgen4a.net/gnu-global-force-cpp</id>
   <published>2014-04-02T00:00:00+04:00</published>
   <updated>2014-04-02T00:00:00+04:00</updated>
   <author>
     <name>Evgeny Salagaev</name>
-    <uri>http://ulgen4a.net</uri>
+    <uri>http://blog.ulgen4a.net</uri>
     <email>ulgen@ulgen4a.net</email>
   </author>
-  <category scheme="http://ulgen4a.net/tags/#gtags" term="gtags" /><category scheme="http://ulgen4a.net/tags/#global" term="global" />
+  <category scheme="http://blog.ulgen4a.net/tags/#gtags" term="gtags" /><category scheme="http://blog.ulgen4a.net/tags/#global" term="global" />
   <content type="html">
   
     &lt;p&gt;Как я уже писал ранее, система используемая мною для индексирования исходных
@@ -239,22 +239,22 @@ GTAGSFORCECPP следующим образом:&lt;/p&gt;
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/gnu-global-force-cpp/&quot;&gt;Как заставить GNU Global индексировать .h как C++&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on April 02, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://blog.ulgen4a.net/gnu-global-force-cpp/&quot;&gt;Как заставить GNU Global индексировать .h как C++&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://blog.ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on April 02, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Использование GNU GLOBAL в Emacs]]></title>
-  <link rel="alternate" type="text/html" href="http://ulgen4a.net/using-globals/"/>
-  <id>http://ulgen4a.net/using-globals</id>
+  <link rel="alternate" type="text/html" href="http://blog.ulgen4a.net/using-globals/"/>
+  <id>http://blog.ulgen4a.net/using-globals</id>
   <published>2014-03-26T00:00:00+04:00</published>
   <updated>2014-03-26T00:00:00+04:00</updated>
   <author>
     <name>Evgeny Salagaev</name>
-    <uri>http://ulgen4a.net</uri>
+    <uri>http://blog.ulgen4a.net</uri>
     <email>ulgen@ulgen4a.net</email>
   </author>
-  <category scheme="http://ulgen4a.net/tags/#emacs" term="emacs" /><category scheme="http://ulgen4a.net/tags/#gtags" term="gtags" /><category scheme="http://ulgen4a.net/tags/#global" term="global" />
+  <category scheme="http://blog.ulgen4a.net/tags/#emacs" term="emacs" /><category scheme="http://blog.ulgen4a.net/tags/#gtags" term="gtags" /><category scheme="http://blog.ulgen4a.net/tags/#global" term="global" />
   <content type="html">
   
     &lt;p&gt;GNU GLOBAL система индексирования исходных текстов, работающая в различных
@@ -312,22 +312,22 @@ GNU GLOBAL. Собственно без этого gtags с tramp работат
 будет.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/using-globals/&quot;&gt;Использование GNU GLOBAL в Emacs&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on March 26, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://blog.ulgen4a.net/using-globals/&quot;&gt;Использование GNU GLOBAL в Emacs&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://blog.ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on March 26, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Написание простого модуля ядра]]></title>
-  <link rel="alternate" type="text/html" href="http://ulgen4a.net/simple-linux-kernel-module/"/>
-  <id>http://ulgen4a.net/simple-linux-kernel-module</id>
+  <link rel="alternate" type="text/html" href="http://blog.ulgen4a.net/simple-linux-kernel-module/"/>
+  <id>http://blog.ulgen4a.net/simple-linux-kernel-module</id>
   <published>2014-03-23T00:00:00+04:00</published>
   <updated>2014-03-23T00:00:00+04:00</updated>
   <author>
     <name>Evgeny Salagaev</name>
-    <uri>http://ulgen4a.net</uri>
+    <uri>http://blog.ulgen4a.net</uri>
     <email>ulgen@ulgen4a.net</email>
   </author>
-  <category scheme="http://ulgen4a.net/tags/#linux" term="linux" /><category scheme="http://ulgen4a.net/tags/#kernel" term="kernel" />
+  <category scheme="http://blog.ulgen4a.net/tags/#linux" term="linux" /><category scheme="http://blog.ulgen4a.net/tags/#kernel" term="kernel" />
   <content type="html">
   
     &lt;p&gt;Напишем модуль, который будет выводить сакраментальное “Hello, World!”. Самый
@@ -419,7 +419,7 @@ GNU GLOBAL. Собственно без этого gtags с tramp работат
 &lt;p&gt;На этом пока все.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://ulgen4a.net/simple-linux-kernel-module/&quot;&gt;Написание простого модуля ядра&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on March 23, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://blog.ulgen4a.net/simple-linux-kernel-module/&quot;&gt;Написание простого модуля ядра&lt;/a&gt; was originally published by Evgeny Salagaev at &lt;a href=&quot;http://blog.ulgen4a.net&quot;&gt;Ulgen4a blog&lt;/a&gt; on March 23, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
